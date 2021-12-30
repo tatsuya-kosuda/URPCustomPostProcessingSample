@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: RetroGame
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
@@ -26,8 +25,6 @@ MonoBehaviour:
   Intensity:
     m_OverrideState: 1
     m_Value: 1
-    min: 0
-    max: 1
 --- !u!114 &-7502240940387734855
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -41,15 +38,12 @@ MonoBehaviour:
   m_Name: SimpleNoise
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
   Intensity:
     m_OverrideState: 1
-    m_Value: 0
-    min: 0
-    max: 1
+    m_Value: 1
   NoiseScale:
     m_OverrideState: 1
     m_Value: 11.91
@@ -66,7 +60,6 @@ MonoBehaviour:
   m_Name: FrameCache
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
@@ -95,7 +88,6 @@ MonoBehaviour:
   m_Name: CrossHatching
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
@@ -111,9 +103,6 @@ MonoBehaviour:
   LineColor:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 0
-    showAlpha: 1
-    showEyeDropper: 1
 --- !u!114 &-1499091429974192359
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -127,40 +116,33 @@ MonoBehaviour:
   m_Name: Bloom
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
   threshold:
     m_OverrideState: 1
     m_Value: 0.38
-    min: 0
   intensity:
     m_OverrideState: 1
     m_Value: 8.63
-    min: 0
   scatter:
     m_OverrideState: 0
     m_Value: 0.7
-    min: 0
-    max: 1
   clamp:
     m_OverrideState: 0
     m_Value: 65472
-    min: 0
   tint:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 0
-    showAlpha: 0
-    showEyeDropper: 1
   highQualityFiltering:
     m_OverrideState: 0
     m_Value: 0
+  skipIterations:
+    m_OverrideState: 0
+    m_Value: 1
   dirtTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
   dirtIntensity:
     m_OverrideState: 0
     m_Value: 0
-    min: 0
 --- !u!114 &-1090487108112578710
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -174,20 +156,15 @@ MonoBehaviour:
   m_Name: ZoomBlur
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
   focusPower:
     m_OverrideState: 1
-    m_Value: 53.3
-    min: 0
-    max: 100
+    m_Value: 100
   focusDetail:
     m_OverrideState: 1
-    m_Value: 5
-    min: 0
-    max: 10
+    m_Value: 2
   focusScreenPosition:
     m_OverrideState: 1
     m_Value: {x: 0, y: 0}
@@ -236,7 +213,6 @@ MonoBehaviour:
   m_Name: Voronoi
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
@@ -255,8 +231,6 @@ MonoBehaviour:
   Intensity:
     m_OverrideState: 1
     m_Value: 0
-    min: 0
-    max: 1
 --- !u!114 &479509991467247236
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -270,15 +244,12 @@ MonoBehaviour:
   m_Name: VideoFeedback
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
   Repeat:
     m_OverrideState: 1
-    m_Value: 5.16
-    min: 1
-    max: 10
+    m_Value: 1
 --- !u!114 &650957546343014451
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -292,28 +263,21 @@ MonoBehaviour:
   m_Name: NoiseColor
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
   Threshold:
     m_OverrideState: 1
     m_Value: 0.041
-    min: 0
-    max: 1
   WaveScale:
     m_OverrideState: 1
     m_Value: 0.053
-    min: 0.01
-    max: 0.1
   NoiseDetail:
     m_OverrideState: 1
     m_Value: 100
   Intensity:
     m_OverrideState: 1
     m_Value: 1
-    min: 0
-    max: 1
   HSVOffset:
     m_OverrideState: 1
     m_Value: {x: 0.5, y: 1, z: 1}
@@ -330,7 +294,6 @@ MonoBehaviour:
   m_Name: PixelateNoise
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
@@ -353,7 +316,6 @@ MonoBehaviour:
   m_Name: DisplacementNoise
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
@@ -379,7 +341,6 @@ MonoBehaviour:
   m_Name: Pixelate
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
@@ -399,7 +360,6 @@ MonoBehaviour:
   m_Name: BorderNoise
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
@@ -422,15 +382,12 @@ MonoBehaviour:
   m_Name: Psycedelic
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
   Intensity:
     m_OverrideState: 1
     m_Value: 1
-    min: 0
-    max: 1
   NoiseScale:
     m_OverrideState: 1
     m_Value: 100
@@ -447,7 +404,6 @@ MonoBehaviour:
   m_Name: UVMirror
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
@@ -467,7 +423,6 @@ MonoBehaviour:
   m_Name: Tonemapping
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
   mode:
     m_OverrideState: 1
     m_Value: 2
@@ -484,20 +439,15 @@ MonoBehaviour:
   m_Name: GlitchFreezeFrame
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
   glitchStrength:
     m_OverrideState: 1
     m_Value: 0
-    min: 0
-    max: 1
   direction:
     m_OverrideState: 1
     m_Value: 0.195
-    min: 0
-    max: 1
 --- !u!114 &9042724644724230141
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -511,15 +461,12 @@ MonoBehaviour:
   m_Name: InvertColor
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
   Intensity:
     m_OverrideState: 1
     m_Value: 0.6
-    min: 0.6
-    max: 1
 --- !u!114 &9089797557502845896
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -533,7 +480,6 @@ MonoBehaviour:
   m_Name: Glitch
   m_EditorClassIdentifier: 
   active: 0
-  m_AdvancedMode: 0
   Enable:
     m_OverrideState: 1
     m_Value: 1
